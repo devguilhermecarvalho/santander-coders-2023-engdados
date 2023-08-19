@@ -1,0 +1,7 @@
+Estudo de Caso 1:
+Como evitar que as frações das aulas anteriores recebam denominador igual a zero.
+
+Estudo de Caso 2:
+Como garantir que clientes da aula anterior não possuam múltiplas contas bancárias, contas não possuam múltiplos clientes e clientes sempre possuam CPFs válidos.
+
+https://github.com/FelippoDev/Validador_CPF/blob/master/cpf_validador.py
