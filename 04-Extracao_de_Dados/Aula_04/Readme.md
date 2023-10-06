@@ -5,11 +5,14 @@ Resumidamente, a escolha entre CSV, JSON e Parquet depende do tipo de dados que 
 
 - **Tipos da Arquivos**
     - **CSV (Comma-Separated Values - Valores Separados por Vírgula):**
+      
     No formato CSV, os dados são armazenados em texto simples, onde cada linha representa uma entrada de dados e os campos são separados por vírgulas (ou outro delimitador, como ponto e vírgula).
     - **JSON (JavaScript Object Notation - Notação de Objetos JavaScript):**
+      
      JSON é um formato de texto que armazena dados no formato de pares chave-valor. Os dados são estruturados em objetos e arrays.
      É usado para representar dados estruturados e complexos. Amplamente adotado em APIs REST para troca de dados entre servidores e clientes.
     - **Parquet:**
+      
      O Parquet é um formato de armazenamento colunar binário. Ele armazena os dados de forma eficiente e compacta, organizando os valores das colunas em blocos.
      É especialmente adequado para armazenar e processar grandes volumes de dados, como em ambientes de Big Data e análise de dados.
      Oferece compressão eficiente e suporte à leitura paralela, tornando-o ideal para sistemas distribuídos, como o Hadoop.
