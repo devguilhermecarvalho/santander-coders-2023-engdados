@@ -20,8 +20,11 @@ São acrônimos relacionados a processos de integração de dados que desempenha
 
 **Transformação (Transform):** A transformação dos dados ocorre após o carregamento no armazém de dados. Isso significa que a transformação ocorre no local de armazenamento, e as ferramentas de consulta e análise são usadas para transformar e preparar os dados conforme necessário.
 
+---
+
 A escolha entre ETL e ELT depende das necessidades específicas de uma organização e dos sistemas envolvidos. Alguns fatores a considerar incluem a complexidade dos dados, o volume de dados, a escalabilidade, os requisitos de desempenho e os recursos disponíveis. O ELT é muitas vezes preferido quando se lida com grandes volumes de dados ou quando a flexibilidade na manipulação dos dados é uma prioridade. O ETL tradicional é mais apropriado quando é necessário realizar transformações complexas antes do armazenamento dos dados.
 
+---
 
 **APIs Requests**
 A biblioteca "Requests" é uma biblioteca Python muito popular e amplamente usada para fazer solicitações HTTP a servidores web. Ela simplifica o processo de envio de solicitações e o tratamento das respostas.
