@@ -1,0 +1,7 @@
+pandas
+sqlalchemy
+requests
+ipython-sql
+great_expectations
+psycopg2
+ydata_profiling
