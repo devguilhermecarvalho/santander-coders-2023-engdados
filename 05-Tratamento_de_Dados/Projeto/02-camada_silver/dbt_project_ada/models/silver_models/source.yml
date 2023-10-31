@@ -1,0 +1,76 @@
+version: 2
+
+sources:
+  - name: silver_models
+    description: 'Modelo de transformação da camada bronze para a camada silver.'
+    database: postgres
+    schema: public
+    tables:
+      - name: df_reviews_bronze
+        description: 'Dados brutos da camada bronze, df_reviews_bronze'
+        columns:
+          - name: listing_id
+            tests: [not_null]
+          - name: date
+            tests: [not_null]
+      - name: df_listings_bronze
+        description: 'Dados brutos da camada bronze, df_listing_bronze'
+        columns:
+          - name: id
+            tests: [not_null]
+            data_type: integer
+          - name: name
+            tests: [not_null]
+            data_type: date
+          - name: host_id
+            tests: [not_null]
+            data_type: integer
+          - name: host_name
+            tests: [not_null]
+          - name: neighbourhood_group
+            tests: [not_null]
+          - name: neighbourhood
+            tests: [not_null]
+          - name: latitude
+            tests: [not_null]
+          - name: longitude
+            tests: [not_null]
+          - name: room_type
+            tests: [not_null]
+          - name: price
+            tests: [not_null]
+          - name: minimum_nights
+            tests: [not_null]
+          - name: number_of_reviews
+            tests: [not_null]
+          - name: last_review
+            tests: [not_null]
+          - name: reviews_per_month
+            tests: [not_null]
+          - name: calculated_host_listings_count
+            tests: [not_null]
+          - name: availability_365
+            tests: [not_null]
+          - name: number_of_reviews_ltm
+            tests: [not_null]
+          - name: license
+            tests: [not_null]
+
+      - name: df_calendar_bronze
+        description: 'Dados brutos da camada bronze, df_calendar_bronze'
+        columns:
+          - name: available
+            tests: [not_null]
+            data_type: boolean
+          - name: price
+            tests: [not_null]
+            data_type: numeric(10, 2)
+          - name: adjusted_price
+            tests: [not_null]
+            data_type: numeric(10, 2)
+          - name: minimum_nights
+            tests: [not_null]
+            data_type: integer
+          - name: maximum_nights
+            tests: [not_null]
+            data_type: integer
