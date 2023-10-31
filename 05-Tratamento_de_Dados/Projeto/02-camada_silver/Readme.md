@@ -1,4 +1,4 @@
-**dbt teste** - Ambiente virtual criando com o Python para a instalação do DBT
+**dbt teste** - Ambiente virtual criado com o Python para a instalação do DBT
 
 **dbt_project_ada** - Ambiente da instalação do DBT e do Great Expactation como ferramenta do DBT.
 
