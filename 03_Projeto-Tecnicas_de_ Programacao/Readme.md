@@ -1,7 +1,7 @@
 # Satander Coders 2023 - Engenharia de Dados
 
-> Módulo 03 - Técnicas de Programação
-> Aluno: Guilherme Carvalho - Turma: 1011
+> **Módulo 03 - Técnicas de Programação**<br>
+> **Aluno: Guilherme Carvalho - Turma: 1011**
 
 ---
 
