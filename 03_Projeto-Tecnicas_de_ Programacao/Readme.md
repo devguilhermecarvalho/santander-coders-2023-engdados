@@ -2,11 +2,10 @@
 
 > Módulo 03 - Técnicas de Programação
 > Aluno: Guilherme Carvalho - Turma: 1011
-> **Projeto:**
 
 ---
 
-## **Resumo do Projeto: Processamento de Dados de Escolas**
+## **Projeto: Processamento de Dados de Escolas**
 
 ### **Objetivo do Projeto:**
 
@@ -15,7 +14,7 @@ O projeto tem como objetivo processar dados relacionados a escolas, material did
 ### **Tecnologias Utilizadas:**
 
 * Linguagem de Programação: **Python**
-* Biblioteca para análise e tratamento de dados: **Pandas:**
+* Biblioteca para análise e tratamento de dados: **Pandas**
 * Biblioteca para remover acentos e caracteres especiais: **Unidecode**
 * Manipulação de strings e extração de informações: **Regex (Expressões Regulares)**
 
